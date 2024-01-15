@@ -26,6 +26,7 @@ typedef struct QUAD_ENC {
 
     /* Encoder information */
     const int encZero;
+    const int enc_res; // Encoder resolution (how many steps are done before a full rotation is complete)
 
 } QUAD_ENC;
 

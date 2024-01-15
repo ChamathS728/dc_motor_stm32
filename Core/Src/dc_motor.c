@@ -85,5 +85,5 @@ void DC_MTR_setPWMFreq(DC_MTR* dc_mtr_ptr, float frequency) {
     // Restart the PWM output
     HAL_TIM_PWM_Start(dc_mtr_ptr->PWM_timer, dc_mtr_ptr->PWM_timer->Channel);
 
-// }
+}
 
